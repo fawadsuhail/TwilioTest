@@ -13,6 +13,7 @@
 		6D91F8DE1E34C51800F3E4EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D91F8DC1E34C51800F3E4EF /* Main.storyboard */; };
 		6D91F8E01E34C51800F3E4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D91F8DF1E34C51800F3E4EF /* Assets.xcassets */; };
 		6D91F8E31E34C51800F3E4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D91F8E11E34C51800F3E4EF /* LaunchScreen.storyboard */; };
+		6D91F8EB1E34C73900F3E4EF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91F8EA1E34C73900F3E4EF /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		6D91F8DF1E34C51800F3E4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D91F8E21E34C51800F3E4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D91F8E41E34C51800F3E4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D91F8EA1E34C73900F3E4EF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9C6385023BFC98CF88DFBB6B /* Pods_TwilioTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwilioTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CACD96886B6B25EDB2DC899 /* Pods-TwilioTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioTest/Pods-TwilioTest.release.xcconfig"; sourceTree = "<group>"; };
 		A40FB4A63E2E832CBF971480 /* Pods-TwilioTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioTest/Pods-TwilioTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				6D91F8D81E34C51800F3E4EF /* AppDelegate.swift */,
+				6D91F8EA1E34C73900F3E4EF /* Constants.swift */,
 				6D91F8DA1E34C51800F3E4EF /* ViewController.swift */,
 				6D91F8DC1E34C51800F3E4EF /* Main.storyboard */,
 				6D91F8DF1E34C51800F3E4EF /* Assets.xcassets */,
@@ -214,6 +217,7 @@
 			files = (
 				6D91F8DB1E34C51800F3E4EF /* ViewController.swift in Sources */,
 				6D91F8D91E34C51800F3E4EF /* AppDelegate.swift in Sources */,
+				6D91F8EB1E34C73900F3E4EF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +383,7 @@
 				6D91F8E91E34C51800F3E4EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
