@@ -31,14 +31,16 @@ let params: [String: String] = ["From": "FROM_NUMBER",
 Alamofire.request(url, method: .post, parameters: params,
                   encoding: URLEncoding.default, headers: headers)
   .authenticate(user: K.Twilio.SID,
-                password: K.Twilio.authToken).responseJSON { response in
-                  
-                  switch response.result {
-                  case .success:
-                    print("success \(response)")
-                  case .failure(let error):
-                    print(error)
-                  }
+                password: K.Twilio.authToken)
+  .responseJSON { response in
+    
+    switch response.result {
+    case .success:
+      print("success \(response)")
+    case .failure(let error):
+      print(error)
+    }
 }
+
 ```
 
