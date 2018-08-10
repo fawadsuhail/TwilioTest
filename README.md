@@ -2,7 +2,7 @@
 
 Since Twilio doesn't provide an official iOS SDK, us engineers have to use the Rest API. This is how to use Twilio with the much loved Alamofire library.
 
-###Store the SID and Auth key in a constants file.
+**Store the SID and Auth key in a constants file**
 
 ```
 struct K {
@@ -13,7 +13,7 @@ struct K {
 }
 ```
 
-###Sending an SMS
+**Sending an SMS**
 
 ```
 let url = "https://api.twilio.com/2010-04-01/Accounts/\(K.Twilio.SID)/Messages.json"
